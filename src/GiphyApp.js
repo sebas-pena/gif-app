@@ -3,13 +3,14 @@ import { AddCategory } from './component/AddCategory'
 import { GifGallery } from './component/GifGallery'
 
 
-export const GiphyApp = () => {
+export const GiphyApp = ({ defaultCategories = [] }) => {
 
-    const [categories, setCategories] = useState(['Iron Man', 'AJR', 'Twenty One Pilots'])
+    const [categories, setCategories] = useState(defaultCategories)
 
     return (
         <>
-            <h1>GiphyApp</h1>
+            <h1>AGAUGA</h1>
+            <p><b>Another Gif App Using Giphy API</b></p>
             <AddCategory setCategories={setCategories} categories={categories} />
             <hr />
 

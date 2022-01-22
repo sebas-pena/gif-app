@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el componente GifItem debe de renderizar correctamente el componente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="title"
+    src="https://localhost:3200/images.jpg"
+  />
+  <p>
+    title
+  </p>
+</div>
+`;
+
+exports[`Probando el componente GifItem deben de coincidir los titulos 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="title"
+    src="https://localhost:3200/images.jpg"
+  />
+  <p>
+    title
+  </p>
+</div>
+`;

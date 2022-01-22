@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre <GifGallery /> Debe de mostrar items cuando se cargan las imagenes useFetchGifs 1`] = `
+<div
+  className=" animate__animated animate__fadeIn"
+>
+  <h3>
+    test
+  </h3>
+  <div
+    className="gif-gallery"
+  >
+    <GifItem
+      id={9090}
+      key="9090"
+      title="titulo del gif"
+      url="http://localhost:80/algo.jpg"
+    />
+    <GifItem
+      id={9091}
+      key="9091"
+      title="2do titulo del gif"
+      url="http://localhost:80/algo2.jpg"
+    />
+  </div>
+  <hr />
+</div>
+`;
+
+exports[`Pruebas sobre <GifGallery /> Se debe renderizar correctamente el componente 1`] = `
+<div
+  className=" animate__animated animate__fadeIn"
+>
+  <h3>
+    test
+  </h3>
+  <div
+    className="gif-gallery"
+  >
+    <p>
+      Loading...
+    </p>
+  </div>
+  <hr />
+</div>
+`;

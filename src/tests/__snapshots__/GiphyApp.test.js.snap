@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre <GiphyApp /> Debe renderizar <GiphyApp /> correctamente 1`] = `
+<Fragment>
+  <h1>
+    AGAUGA
+  </h1>
+  <p>
+    <b>
+      Another Gif App Using Giphy API
+    </b>
+  </p>
+  <AddCategory
+    categories={Array []}
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;

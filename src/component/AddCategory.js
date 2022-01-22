@@ -9,13 +9,15 @@ export const AddCategory = ({ setCategories, categories }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (inputValue && !categories.includes(inputValue)) {
+        if (inputValue.trim() && !categories.includes(inputValue)) {
             setCategories([inputValue, ...categories])
             setInputValue('')
         }
     }
 
-    const handleInputChange = (e) => setInputValue(e.target.value)
+    const handleInputChange = (e) => {
+        setInputValue(e.target.value)
+    }
 
 
     return (
@@ -33,5 +35,6 @@ export const AddCategory = ({ setCategories, categories }) => {
 }
 
 AddCategory.propTypes = {
-    setCategories: PropTypes.func.isRequired
+    setCategories: PropTypes.func.isRequired,
+    categories: PropTypes.array.isRequired
 }
